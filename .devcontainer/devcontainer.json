@@ -6,5 +6,6 @@
   "remoteUser": "node",
   "containerEnv": {
     "DISABLE_AUTOUPDATER": "1"
-  }
+  },
+  "postCreateCommand": "claude plugin marketplace add anthropics/claude-plugins-official && claude plugin install postman@claude-plugins-official || echo 'Postman plugin install failed; run: claude plugin install postman@claude-plugins-official'"
 }
