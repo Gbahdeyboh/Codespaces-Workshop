@@ -1,8 +1,8 @@
 FROM mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm
 
-USER vscode
+USER node
 
-ENV PATH="/home/vscode/.local/bin:${PATH}"
+ENV PATH="/home/node/.local/bin:${PATH}"
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
