@@ -1,0 +1,10 @@
+{
+  "name": "Agent Workshop",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "containerEnv": {
+    "DISABLE_AUTOUPDATER": "1"
+  }
+}
